@@ -1,0 +1,31 @@
+body{
+    background-image: url(fundo\ computador1000.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;    
+}
+
+.foto-principal{
+    border: 4px double rgb(199, 220, 248);
+    border-radius: 0% 40% 40% 0%;
+    margin: 30px;
+    padding: 2px;  
+    box-shadow: 0px 0px 10px rgb(199, 220, 248);
+}
+h1{
+    margin-bottom: 0;
+    font-weight: 100;
+    letter-spacing: -1px;
+}
+h2{
+    margin-top: 0;
+    font-style: italic;
+    color: hsl(231, 50%, 92%);
+    font-weight: 100;
+    letter-spacing: -1px;
+}
+h3{
+    font-weight: 100;
+}
+   

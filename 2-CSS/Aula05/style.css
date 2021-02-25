@@ -1,0 +1,15 @@
+body{
+    background-image: url(fundo\ computador1000.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+h1,h2,h3,p,ul{
+    color: white;   
+}
+.foto-principal{
+    border: 4px double rgb(255, 255, 255);
+    border-radius: 0% 40% 40% 0%;
+    margin: 30px 30px 50px 30px;  
+}
+   

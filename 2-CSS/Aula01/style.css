@@ -1,0 +1,12 @@
+body{
+    background-color: aqua;
+}
+h3{
+    color: rgb(61, 41, 11);
+}
+.foto-principal{
+    width: 150px;
+}
+#titulo-principal{
+    color: chocolate;
+}   
