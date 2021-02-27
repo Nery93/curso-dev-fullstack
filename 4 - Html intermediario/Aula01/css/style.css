@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray
+}
+li{
+    border-radius: 15px 30px;
+    box-shadow: 4px 2px 10px rgba(146, 206, 230, 0.253);
+    background: rgb(27,156,208);
+    background: linear-gradient(281deg, rgba(27,156,208,1) 0%, rgba(5,35,113,1) 100%);
+    margin-bottom: 5px;
+    padding: 10px;
+    text-align: center;
+       
+}
+a:hover{
+    font-weight: 100;
+    font-family: 'Shippori Mincho', serif;
+    font-style: oblique;
+    -webkit-filter: blur(0px);
+    filter: blur(1px); 
+         
+}
+h1{
+    margin-bottom: 15px; 
+    color: black;
+    font-weight: 500;
+    font-variant: initial;
+}
+p{
+    margin-bottom: 15px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+    background-image: url(../img/CGD-subscrever-fundos-1600x360.png);
+    background-size: cover;
+    box-shadow: 5px 5px 5px black;
+    text-align: center;
+    padding: 50px 0;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.header h1{
+    color: ivory;
+    text-align: center;
+    font-family: 'Shippori Mincho',serif;
+    font-family: monospace;
+    font-weight: 200;
+    font-size: 20px;
+    margin: 0 0;
+}
+.header img{
+    width: 100px;
+    
+}
+.container{
+    display: flex;
+}
+.navbar{
+    width: 25%;
+    padding: 30px;
+    display: block;
+    padding: 30px;        
+}
+.navbar ul li a{
+    color: cornsilk;
+    text-decoration:none;         
+}
+.navbar ul{
+    list-style: none;
+}
+
+.content{
+    width: 70%;
+    background: rgb(36,38,40);
+    background: linear-gradient(142deg, rgba(36, 38, 40, 0.151) 44%, rgba(155,169,209,0.2068965517241379) 100%);
+    box-shadow: 0 0 20px lightgray;
+    border-radius: 60px 0px;
+    margin: 20px 20px 40px 0;
+    padding: 22px;
+}
+label{
+    color: black;
+    display: flex;
+    font-family:monospace ;
+}
+textarea{
+    border: 1px solid;
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px #999;
+    resize: none;
+    width: 26em;
+}
+.form input{
+    margin-bottom: 10px;
+    display: flex;
+    border: 1px solid;
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px #999;;
+}
+.botao{
+    display: flex;
+    height: 25px;
+    width: 42px;
+    text-shadow: transparent;
+    text-align: center;
+
+}
+.footer{
+    position: absolute; 
+    left: 0;
+    width: 100%;
+    margin-top: auto;
+    background: rgb(36,38,40);
+    background: linear-gradient(142deg, rgba(36, 38, 40, 0.151) 44%, rgba(155,169,209,0.2068965517241379) 100%);
+    text-align: center;
+    padding: 20px 0;
+}
