@@ -1,0 +1,14 @@
+.exemplo{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+.exemplo1 .red{    
+    color: rgb(233, 15, 15);
+}
+.exemplo3 + p{
+    color: blue;
+}
+.exemplo4 ~ p{
+    color: chartreuse;
+}
